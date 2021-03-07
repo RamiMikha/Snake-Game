@@ -11,9 +11,9 @@ function main (currentTime) {
        if (confirm('You lost. Press OK to restart')) {
            window.location = '/' 
        } 
-       else window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
+      
        
-       return
+      return
     } 
 
 
