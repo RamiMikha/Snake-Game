@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board')
 function main (currentTime) {
     if (gameOver) {
        if (confirm('You lost. Press OK to restart')) {
-           window.location = '/' 
+           window.location = 'https://ramimikha.github.io/Snake-Game/' 
        } 
        else window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
        
